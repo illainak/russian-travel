@@ -1,0 +1,66 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+.page-cover {
+    background-color:#2A2C2F;
+    font-family: 'Inter', "Arial", "sans-serif"; 
+}
+
+.page {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    margin: 0 auto;
+    
+    min-width: 320px;
+    max-width: 1280px;
+
+    font-family: 'Inter', 'Arial', sans-serif; 
+    font-weight: 400;
+    color: #fff;
+}
+.header {
+    padding: 28px 48px 0;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+
+.header__logo {
+    width: 176px;
+    height: 52px;
+}
+
+.header__lang-links {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+
+.header__lang-link {
+    margin: 0;
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+    text-decoration: none;
+    list-style: none;
+    transition: opacity 0.4s;
+}
+
+.header__lang-link-active {
+    text-decoration: underline;
+}
+
+.header__lang-link:hover {
+    opacity: 0.5;
+}
+
+.header__lang-link:first-child {
+    padding-right: 18px;
+}
