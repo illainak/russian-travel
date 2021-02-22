@@ -1,0 +1,8 @@
+.card__site {
+    align-self: flex-end;
+} 
+@media screen and (max-width: 767px) {
+    .card__site {
+        padding: 0 16px;
+    }
+}
