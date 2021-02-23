@@ -22,5 +22,5 @@ Flex элементы, и сетка Grid,
 
 best regards
 
-* [Ссылка на сайт](https://illainak.github.io/russian-travel/
+* [Ссылка на сайт](https://illainak.github.io/russian-travel/)
 
